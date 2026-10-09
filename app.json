@@ -15,13 +15,20 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.gabrielxalmeida.api_contatos_tapwm_110926_gabriel_almeida"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "57f5fbfa-5773-4e8a-9047-b97ac54a3f45"
+      }
+    }
   }
 }
